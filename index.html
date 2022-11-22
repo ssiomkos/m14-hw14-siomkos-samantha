@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Samantha Siomkos m14 hw14</title>
+</head>
+<body>
+  <!-- your code here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Samantha Siomkos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Career Goals</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row d-grid gap-3 p-2">
+      <div class="col bg-light border">
+        <h1>About Me</h1>
+        <p>My name is Sam and I live in Raleigh, North Carolina. I graduated from Meredith College for 
+          undergrad and have lived in Raleigh since graduating in 2017.</p>
+      </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide mx-auto d-block d-grid gap-3" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/raleigh.webp" class="d-block w-100" alt="picture of raleigh, nc">
+        </div>
+        <div class="carousel-item">
+          <img src="images/raleigh2.jpeg" class="d-block w-100" alt="picture of raleigh, nc">
+        </div>
+        <div class="carousel-item">
+          <img src="images/raleigh3.jpeg" class="d-block w-100" alt="picture of raleigh, nc">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row mt-2 mb-2">
+      <div class="col-sm-6">
+        <h2>Interests</h2>
+        <p>My personal interests include 
+          spending time with my family and my dog Ranger, watching shows/movies, trying new restaurants, 
+          and reading.</p>
+      </div>
+      <div class="col">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>I am a member of book club called Read Between the Wines</li>
+          <li>I belong to a gym called Burn Boot Camp</li>
+          <li>Listen to podcasts like The Morning Toast</li>
+          <li>Baking</li>
+        </ul>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Career Goals</h2>
+          <ol>
+            <li>Complete the Web Design Grad Certificate from UF</li>
+            <li>Become a hybrid UI developer and UX Practioner/Designer in my role</li>
+            <li>Do freelance Web design/development on the side</li>
+            <li>Eventually turn my freelance work into a fulltime job if possible</li>
+          </ol>
+          <div id="liveAlertPlaceholder"></div>
+          <button type="button" class="btn btn-dark mx-auto d-block" id="liveAlertBtn">Click for message!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
